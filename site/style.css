@@ -8,6 +8,7 @@ footer{
 body{
     line-height: 1;
     margin: 0;
+	width: 100%;
 }
 
 article p{
@@ -109,23 +110,11 @@ ul.topnav li.dropdownMenu{
 
 /*######## Custom Styles ########*/
 #section_1_gradient{
-
     background: #076DFF;
     background: linear-gradient(#076dff,#65a5ff);
     background: -webkit-linear-gradient(#076dff,#65a5ff);
     background: -o-linear-gradient(#076dff,#65a5ff);
     background: -moz-linear-gradient(#076dff,#65a5ff);
-<<<<<<< HEAD
-
-    /*
-    background-image: url(markus-spiske-qjnAnF0jIGk-unsplash.jpg);
-    background-size: contain;
-    */
-=======
-/* 
-    background-image: url(markus-spiske-qjnAnF0jIGk-unsplash.jpg);
-    background-size: contain; */
->>>>>>> 4cc0eae5764311fd4c382a9e7966ffb75681c4a9
 }
 
 div.leftSide-col{
@@ -220,7 +209,7 @@ footer.footsy ul li{
 }
 
 /*######### Mobile #########*/
-@media screen and (max-width: 680px){
+@media screen and (max-width: 768px){
     ul.topnav li:not(:nth-child(1)){
         display: none;
     }
@@ -291,6 +280,14 @@ footer.footsy ul li{
         margin: 0;
         overflow: hidden;
     }
+/*
+	body{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 150px;
+	}
+*/
 }
 
 
