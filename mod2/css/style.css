@@ -46,10 +46,13 @@ body{
 .col-12{width: 100%;}
 
 p{
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.2;
   padding: 15px;
   clear: both;
   font-size: 18px;
   color: white;
+  text-align: left;
 }
 
 
