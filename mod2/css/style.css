@@ -70,6 +70,8 @@ label.l1{
   position: relative;
   font-size: 20px;
   font-weight: bold;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 label.l2{
@@ -81,7 +83,8 @@ label.l2{
   background-color: yellow;
   font-size: 20px;
   font-weight: bold;
-}
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;}
 
 label.l3{
   top: 0;
@@ -92,6 +95,8 @@ label.l3{
   background-color: red;
   font-size: 20px;
   font-weight: bold;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -100,6 +105,7 @@ div.box{
   padding: 0;
   text-align: center;
   background-color: gray;
+  border: 2px solid black;
 }
 
 
