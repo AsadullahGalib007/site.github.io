@@ -102,6 +102,71 @@ body{
 }
 
 
+#menu-tile,
+#specials-tile,
+#map-tile{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile{
+  background: url("../img/menu-tile.jpg") no-repeat;
+  background-position: center;
+}
+
+#specials-tile{
+  background: url("../img/specials-tile.jpg") no-repeat;
+  background-position: center;
+}
+
+#menu-tile span,
+#specials-tile span,
+#map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.7;
+}
+
+footer div.text-center{
+  margin-top: 30px;
+  font-size: 0.7em;
+  color: whitesmoke;
+}
+
+footer.panel-footer{
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+#hours > span,
+#address > span,
+#testimonials > span{
+  font-size: 1.3em
+}
+
+#testimonials{
+  font-style: italic;
+}
+
+
 
 /*######## Large Devices ########*/
 @media(min-width: 1200px){
@@ -193,6 +258,28 @@ body{
     padding: 0;
   }
 
+  #menu-tile, #specials-tile{
+    width: 360px;
+    margin: 0 auto 15px auto;
+  }
+
+  .panel-footer section{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
 }
 
+/*####### Super Extra Small Devices(eg-iPhone-4)#######*/
+@media(max-width: 479px){
+  .navbar-brand h1{
+    padding-top: 5px;
+    font-size: 5vw;
+  }
+
+  #menu-tile, #specials-tile{
+    width: 280px;
+    margin: 0 auto 15px auto;
+  }
+}
 
