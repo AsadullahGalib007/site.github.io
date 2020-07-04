@@ -1,0 +1,130 @@
+body{
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+
+/*Resturant Name*/
+.navbar-brand h1{    
+  font-family: 'Lora', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-bottom: 5px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+#nav-list a{
+  text-align: center;
+  color: white;
+}
+
+div.page-title h1{
+  text-align: center;
+  color: gray;
+}
+
+#chicken-tile,
+#beef-tile,
+#sushi-tile{
+  height: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  background-color: gray;
+}
+
+#chicken-tile span,
+#beef-tile span,
+#sushi-tile span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: black;
+}
+
+div.container-fluid{
+  padding-top: 20px;
+}
+
+p.para{
+  padding: 40px 10px 3px 10px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
