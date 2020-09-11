@@ -1,7 +1,13 @@
 body{
   font-size: 16px;
   color: #fff;
-  background-color: maroon;
+  /*background-color: maroon;*/
+  background: #fff;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  background-image: -webkit-linear-gradient(120deg, #155799, #159957);
+  background-image: -o-linear-gradient(120deg, #155799, #159957);
+  background-image: -moz-linear-gradient(120deg, #155799, #159957);
   font-family: 'Oxygen', sans-serif;
 }
 
